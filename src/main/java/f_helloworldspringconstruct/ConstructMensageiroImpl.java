@@ -14,6 +14,6 @@ public class ConstructMensageiroImpl implements Mensageiro{
     
     @Override
     public String getMessage() {
-        return message;
+        return this.message;
     }   
 }
