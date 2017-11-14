@@ -1,4 +1,4 @@
-package b_helloworldspringAnnot;
+package b_helloworldspringannot;
 
 import org.springframework.stereotype.Service;
 
