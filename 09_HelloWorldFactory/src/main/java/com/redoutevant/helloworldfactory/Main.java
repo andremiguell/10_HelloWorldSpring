@@ -32,4 +32,14 @@ public class Main {
 //        }
 //    }
     // versao 4
+    public static void main(String[] args) {
+        Display d = HelloWorldFactory.getInstance().getDisplay();
+        Mensageiro m = HelloWorldFactory.getInstance().getMensageiro();
+        d.setMensagem(m);
+        try {
+            d.render();
+        } catch (Exception ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }
