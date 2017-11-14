@@ -1,5 +1,5 @@
-
 package com.redoutevant.springmotivation;
+
 public class A {
 
     private B b;
@@ -22,5 +22,12 @@ public class A {
         public String toString() {
             return "B";
         }
+
+    }
+
+    public static void main(String[] args) {
+        A a = new A();
+        System.out.println(a);
+        System.out.println(a.b);
     }
 }
