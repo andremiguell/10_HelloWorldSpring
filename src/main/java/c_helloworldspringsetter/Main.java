@@ -1,5 +1,6 @@
 package c_helloworldspringsetter;
 
+import f_helloworldspringconstruct.Display;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.springframework.context.support.GenericXmlApplicationContext;

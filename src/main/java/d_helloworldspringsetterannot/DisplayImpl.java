@@ -1,6 +1,5 @@
 package d_helloworldspringsetterannot;
 
-import c_helloworldspringsetter.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

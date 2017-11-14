@@ -1,12 +1,9 @@
-package d_helloworldspringsetterannot;
-
-import org.springframework.stereotype.Service;
+package f_helloworldspringconstruct;
 
 /**
  *
  * @author AMV
  */
-@Service("mensageiro")
 public class MensageiroImpl implements Mensageiro {
 
     @Override

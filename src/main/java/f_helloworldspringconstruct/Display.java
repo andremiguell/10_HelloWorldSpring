@@ -1,6 +1,4 @@
-package c_helloworldspringsetter;
-
-import f_helloworldspringconstruct.Mensageiro;
+package f_helloworldspringconstruct;
 
 /**
  *

@@ -1,5 +1,7 @@
 package c_helloworldspringsetter;
 
+import f_helloworldspringconstruct.Mensageiro;
+
 /**
  *
  * @author AMV

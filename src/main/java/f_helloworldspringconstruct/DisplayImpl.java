@@ -1,7 +1,5 @@
-package c_helloworldspringsetter;
+package f_helloworldspringconstruct;
 
-import f_helloworldspringconstruct.Display;
-import f_helloworldspringconstruct.Mensageiro;
 import org.springframework.stereotype.Service;
 
 /**

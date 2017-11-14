@@ -1,6 +1,5 @@
 package d_helloworldspringsetterannot;
 
-import c_helloworldspringsetter.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.springframework.context.support.GenericXmlApplicationContext;

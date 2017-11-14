@@ -1,7 +1,5 @@
 package d_helloworldspringsetterannot;
 
-import c_helloworldspringsetter.*;
-
 /**
  *
  * @author AMV
