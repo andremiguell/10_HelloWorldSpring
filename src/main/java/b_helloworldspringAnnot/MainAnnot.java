@@ -1,4 +1,4 @@
-package b_helloworldspring;
+package b_helloworldspringAnnot;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
@@ -9,7 +9,7 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 public class MainAnnot {
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
-        ctx.load("calsspath:bean-annot.xml");
+        ctx.load("classpath:bean-annot.xml");
         ctx.refresh();;
         Mensageiro m = ctx.getBean("mensageiro", Mensageiro.class);
         System.out.println(m.getMensagem());

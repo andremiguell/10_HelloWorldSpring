@@ -1,4 +1,4 @@
-package b_helloworldspring;
+package b_helloworldspringAnnot;
 
 /**
  *
