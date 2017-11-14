@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
         XmlBeanDefinitionReader xml = new XmlBeanDefinitionReader(factory);
-        xml.loadBeanDefinitions(new FileSystemResource("src/main/resources/bean.xml"));
+        xml.loadBeanDefinitions(new FileSystemResource("src/main/resources/a_bean.xml"));
         Display d = (Display) factory.getBean("mensageiro");
         //Display d = factory.getBean("mensageiro", Display.class); //identico linha cima
         System.out.println(d.getMensagem());

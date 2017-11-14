@@ -1,5 +1,6 @@
-package c_helloworldspringsetter;
+package d_helloworldspringsetterannot;
 
+import c_helloworldspringsetter.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.springframework.context.support.GenericXmlApplicationContext;
@@ -40,7 +41,7 @@ public class Main {
 // versão 4
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
-        ctx.load("classpath:c_bean-xml.xml");
+        ctx.load("classpath:d_bean-xml-annot.xml");
         ctx.refresh();
         Display d = ctx.getBean("display", Display.class);
         try {
